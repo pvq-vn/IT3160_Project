@@ -38,7 +38,7 @@ Xây dựng hệ thống gợi ý bài hát dựa trên **tâm trạng (mood)** 
 
 ## 4. Luồng xử lý
 ### Mô tả luồng:
-    ![Wireframe tổng quan](./Screenshot 2025-10-06 222416.png)
+    ![Wireframe tổng quan](./Screenshot%202025-10-06%20222416.png)
 
 
 ### Giải thích:
