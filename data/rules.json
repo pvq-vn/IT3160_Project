@@ -1,0 +1,17 @@
+[
+  {
+    "mood": "vui",
+    "genres": ["Pop", "Dance"],
+    "id": [1, 3]
+  },
+  {
+    "mood": "buồn",
+    "genres": ["Ballad", "Acoustic"],
+    "id": [2]
+  },
+  {
+    "mood": "năng động",
+    "genres": ["Rock", "EDM"],
+    "id": [6]
+  }
+]
