@@ -448,5 +448,455 @@
     "moods": ["Lãng mạn", "Xúc động", "Bất hủ"],
     "activity": ["Xem phim", "Thư giãn", "Hoài niệm"],
     "url": "https://youtu.be/FHG2oizTlpY"
+  },
+  {
+    "id": 51,
+    "title": "Đã Lỡ Yêu Em Nhiều",
+    "artist": "JustaTee",
+    "genre": ["V-Pop", "Pop", "R&B"],
+    "moods": ["Lãng mạn", "Yêu đời", "Ngọt ngào"],
+    "activity": ["Hẹn hò", "Đi dạo", "Thư giãn"],
+    "url": "https://youtu.be/h0L3A3c3p60"
+  },
+  {
+    "id": 52,
+    "title": "Mượn Rượu Tỏ Tình",
+    "artist": ["BIGDADDY", "EMILY"],
+    "genre": ["V-Pop", "Pop", "Rap"],
+    "moods": ["Vui vẻ", "Lãng mạn", "Bắt tai"],
+    "activity": ["Party", "Gặp gỡ bạn bè", "Hẹn hò"],
+    "url": "https://youtu.be/aGUQsb31TEw"
+  },
+  {
+    "id": 53,
+    "title": "Hôm Nay Em Cưới Rồi",
+    "artist": "Khải Đăng",
+    "genre": ["V-Pop", "Pop Ballad"],
+    "moods": ["Buồn", "Thất tình", "Luyến tiếc"],
+    "activity": ["Suy ngẫm", "Ngày mưa", "Tâm trạng"],
+    "url": "https://youtu.be/p8-BS-6T4vo"
+  },
+  {
+    "id": 54,
+    "title": "Ex's Hate Me",
+    "artist": ["B Ray", "Masew", "AMEE"],
+    "genre": ["V-Pop", "Rap", "EDM"],
+    "moods": ["Sôi động", "Thất tình", "Mạnh mẽ"],
+    "activity": ["Lái xe", "Party", "Tập luyện"],
+    "url": "https://youtu.be/g-wx_nS3_40"
+  },
+  {
+    "id": 55,
+    "title": "Cuộc Sống Em Ổn Không",
+    "artist": "Anh Tú",
+    "genre": ["V-Pop", "Pop Ballad"],
+    "moods": ["Buồn", "Thất tình", "Đồng cảm"],
+    "activity": ["Suy ngẫm", "Ngày mưa", "Một mình"],
+    "url": "https://youtu.be/1-11jTMiJ_U"
+  },
+  {
+    "id": 56,
+    "title": "Bài Này Chill Phết",
+    "artist": ["Đen", "MIN"],
+    "genre": ["V-Pop", "Rap", "Pop"],
+    "moods": ["Thư giãn", "Bình yên", "Yêu đời"],
+    "activity": ["Đi dạo", "Du lịch", "Làm việc"],
+    "url": "https://youtu.be/ddaEtFOsFeM"
+  },
+  {
+    "id": 57,
+    "title": "Chạm Đáy Nỗi Đau",
+    "artist": "ERIK",
+    "genre": ["V-Pop", "Pop Ballad"],
+    "moods": ["Buồn", "Thất tình", "Xúc động"],
+    "activity": ["Suy ngẫm", "Tâm trạng", "Ngày mưa"],
+    "url": "https://youtu.be/r2bCRyGpr-o"
+  },
+  {
+    "id": 58,
+    "title": "Cô Thắm Không Về",
+    "artist": ["Phát Hồ", "JokeS Bii", "Sinike"],
+    "genre": ["V-Pop", "EDM"],
+    "moods": ["Sôi động", "Buồn", "Bắt tai"],
+    "activity": ["Party", "Lái xe", "Thư giãn"],
+    "url": "https://youtu.be/JP-_8s43y-8"
+  },
+  {
+    "id": 59,
+    "title": "Để Mị Nói Cho Mà Nghe",
+    "artist": "Hoàng Thuỳ Linh",
+    "genre": ["V-Pop", "Pop", "World music"],
+    "moods": ["Vui vẻ", "Yêu đời", "Tự hào"],
+    "activity": ["Du lịch", "Lễ hội", "Party"],
+    "url": "https://youtu.be/H14bBuluwB8"
+  },
+  {
+    "id": 60,
+    "title": "Đi Về Nhà",
+    "artist": ["Đen", "JustaTee"],
+    "genre": ["V-Pop", "Rap", "Pop"],
+    "moods": ["Ấm áp", "Hoài niệm", "Bình yên"],
+    "activity": ["Du lịch", "Năm mới", "Gặp gỡ bạn bè"],
+    "url": "https://youtu.be/vTJdVE_gjI0"
+  },
+  {
+    "id": 61,
+    "title": "Buồn Của Anh",
+    "artist": ["K-ICM", "Đạt G", "Masew"],
+    "genre": ["V-Pop", "Pop Ballad"],
+    "moods": ["Buồn", "Thất tình", "Cô đơn"],
+    "activity": ["Tâm trạng", "Ngày mưa", "Suy ngẫm"],
+    "url": "https://youtu.be/Y-64i5y-a-0"
+  },
+  {
+    "id": 62,
+    "title": "Pastlives",
+    "artist": "sapientdream",
+    "genre": ["Pop", "EDM"],
+    "moods": ["Hoài niệm", "Mơ mộng", "Bình yên"],
+    "activity": ["Thư giãn", "Đêm khuya", "Suy ngẫm"],
+    "url": "https://youtu.be/cRnF6o_0k-I"
+  },
+  {
+    "id": 63,
+    "title": "Thanh Xuân",
+    "artist": "Da LAB",
+    "genre": ["V-Pop", "Pop"],
+    "moods": ["Hoài niệm", "Luyến tiếc", "Sâu lắng"],
+    "activity": ["Nhớ kỷ niệm", "Gặp gỡ bạn bè", "Thư giãn"],
+    "url": "https://youtu.be/sem-U_eM0a0"
+  },
+  {
+    "id": 64,
+    "title": "Có Chắc Yêu Là Đây",
+    "artist": "Sơn Tùng M-TP",
+    "genre": ["V-Pop", "Pop", "R&B"],
+    "moods": ["Vui vẻ", "Yêu đời", "Ngọt ngào"],
+    "activity": ["Đi dạo", "Hẹn hò", "Mùa hè"],
+    "url": "https://youtu.be/6t-MjBazs3o"
+  },
+  {
+    "id": 65,
+    "title": "Tết Đong Đầy",
+    "artist": ["KHOA", "Kay Tran", "Duck V"],
+    "genre": ["V-Pop", "Pop", "Rap"],
+    "moods": ["Vui vẻ", "Ấm áp", "Hào hứng"],
+    "activity": ["Năm mới", "Lễ hội", "Gặp gỡ bạn bè"],
+    "url": "https://youtu.be/4e1f_d1nCEA"
+  },
+  {
+    "id": 66,
+    "title": "Lối Nhỏ",
+    "artist": ["Đen", "Phương Anh Đào"],
+    "genre": ["V-Pop", "Rap", "Acoustic"],
+    "moods": ["Sâu lắng", "Bình yên", "Lãng mạn"],
+    "activity": ["Đọc sách", "Ngày mưa", "Thư giãn"],
+    "url": "https://youtu.be/JG6-BfO4T5E"
+  },
+  {
+    "id": 67,
+    "title": "Là 1 Thằng Con Trai",
+    "artist": "Jack",
+    "genre": ["V-Pop", "Dance-pop"],
+    "moods": ["Sôi động", "Vui vẻ", "Bắt tai"],
+    "activity": ["Party", "Lái xe", "Nhảy múa"],
+    "url": "https://youtu.be/1exoyTkx_oE"
+  },
+  {
+    "id": 68,
+    "title": "24H",
+    "artist": ["LyLy", "Magazine"],
+    "genre": ["V-Pop", "Pop", "R&B"],
+    "moods": ["Lãng mạn", "Buồn", "Ngọt ngào"],
+    "activity": ["Hẹn hò", "Thư giãn", "Đêm khuya"],
+    "url": "https://youtu.be/IpNI51rggdI"
+  },
+  {
+    "id": 69,
+    "title": "Thay Tôi Yêu Cô Ấy",
+    "artist": "Thanh Hưng",
+    "genre": ["V-Pop", "Pop Ballad"],
+    "moods": ["Buồn", "Thất tình", "Luyến tiếc"],
+    "activity": ["Suy ngẫm", "Tâm trạng", "Ngày mưa"],
+    "url": "https://youtu.be/Yp-d4a4M3D0"
+  },
+  {
+    "id": 70,
+    "title": "Bạn Đời",
+    "artist": ["KARIK", "GDUCKY"],
+    "genre": ["V-Pop", "Rap", "Pop"],
+    "moods": ["Lãng mạn", "Ấm áp", "Sâu lắng"],
+    "activity": ["Hẹn hò", "Đám cưới", "Thư giãn"],
+    "url": "https://youtu.be/kYkpoaE8T-A"
+  },
+  {
+    "id": 71,
+    "title": "Âm Thầm Bên Em",
+    "artist": "Sơn Tùng M-TP",
+    "genre": ["V-Pop", "Pop Ballad", "R&B"],
+    "moods": ["Buồn", "Thất tình", "Luyến tiếc"],
+    "activity": ["Suy ngẫm", "Tâm trạng", "Ngày mưa"],
+    "url": "https://youtu.be/30sC-tdu3-M"
+  },
+  {
+    "id": 72,
+    "title": "Độ Ta Không Độ Nàng",
+    "artist": "Thiên An",
+    "genre": ["V-Pop", "Pop Ballad"],
+    "moods": ["Buồn", "Sâu lắng", "Luyến tiếc"],
+    "activity": ["Suy ngẫm", "Tâm trạng", "Một mình"],
+    "url": "https://youtu.be/e8oOfy7yw-c"
+  },
+  {
+    "id": 73,
+    "title": "Đom Đóm",
+    "artist": "Jack",
+    "genre": ["V-Pop", "Pop Ballad"],
+    "moods": ["Lãng mạn", "Nhẹ nhàng", "Bình yên"],
+    "activity": ["Thư giãn", "Đêm khuya", "Hẹn hò"],
+    "url": "https://youtu.be/4CCp-i_pZ4A"
+  },
+  {
+    "id": 74,
+    "title": "Suýt Nữa Thì",
+    "artist": "Andiez",
+    "genre": ["V-Pop", "Pop Ballad", "Acoustic"],
+    "moods": ["Buồn", "Luyến tiếc", "Hoài niệm"],
+    "activity": ["Suy ngẫm", "Tâm trạng", "Nhớ kỷ niệm"],
+    "url": "https://youtu.be/kPXOaClAI-M"
+  },
+  {
+    "id": 75,
+    "title": "Đường Một Chiều",
+    "artist": ["Huỳnh Tú", "Magazine"],
+    "genre": ["V-Pop", "Pop Ballad", "R&B"],
+    "moods": ["Buồn", "Thất tình", "Sâu lắng"],
+    "activity": ["Ngày mưa", "Suy ngẫm", "Một mình"],
+    "url": "https://youtu.be/VPQuU6n-v1I"
+  },
+  {
+    "id": 76,
+    "title": "Chạy Ngay Đi",
+    "artist": "Sơn Tùng M-TP",
+    "genre": ["V-Pop", "Hiphop", "R&B"],
+    "moods": ["Sôi động", "Mạnh mẽ", "Tức giận"],
+    "activity": ["Tập luyện", "Lái xe", "Giải tỏa căng thẳng"],
+    "url": "https://youtu.be/30sC-tdu3-M"
+  },
+  {
+    "id": 77,
+    "title": "Buông Đôi Tay Nhau Ra",
+    "artist": "Sơn Tùng M-TP",
+    "genre": ["V-Pop", "Pop Ballad"],
+    "moods": ["Buồn", "Thất tình", "Luyến tiếc"],
+    "activity": ["Suy ngẫm", "Ngày mưa", "Tâm trạng"],
+    "url": "https://youtu.be/LCyo565N_5w"
+  },
+  {
+    "id": 78,
+    "title": "Em Gái Mưa",
+    "artist": "Hương Tràm",
+    "genre": ["V-Pop", "Pop Ballad"],
+    "moods": ["Buồn", "Thất tình", "Xúc động"],
+    "activity": ["Ngày mưa", "Suy ngẫm", "Tâm trạng"],
+    "url": "https://youtu.be/y-GSyvIHPkM"
+  },
+  {
+    "id": 79,
+    "title": "Hết Thương Cạn Nhớ",
+    "artist": "ĐỨC PHÚC",
+    "genre": ["V-Pop", "Pop Ballad"],
+    "moods": ["Buồn", "Thất tình", "Luyến tiếc"],
+    "activity": ["Suy ngẫm", "Tâm trạng", "Một mình"],
+    "url": "https://youtu.be/D-Hh-5-bQak"
+  },
+  {
+    "id": 80,
+    "title": "Once Again",
+    "artist": ["Mad Clown", "Kim Na Young"],
+    "genre": ["K-Pop", "OST", "Rap"],
+    "moods": ["Buồn", "Luyến tiếc", "Xúc động"],
+    "activity": ["Xem phim", "Ngày mưa", "Suy ngẫm"],
+    "url": "https://youtu.be/YmXJp4V2-4k"
+  },
+  {
+    "id": 81,
+    "title": "Yêu Là Tha Thu",
+    "artist": "Only C",
+    "genre": ["V-Pop", "Pop", "OST"],
+    "moods": ["Vui vẻ", "Bắt tai", "Yêu đời"],
+    "activity": ["Hẹn hò", "Đi dạo", "Thư giãn"],
+    "url": "https://youtu.be/1-11jTMiJ_U"
+  },
+  {
+    "id": 82,
+    "title": "Pano",
+    "artist": "Zack Tabudlo",
+    "genre": ["Pop", "Ballad"],
+    "moods": ["Buồn", "Thất tình", "Sâu lắng"],
+    "activity": ["Suy ngẫm", "Tâm trạng", "Một mình"],
+    "url": "https://youtu.be/p8-B-6T4vo"
+  },
+  {
+    "id": 83,
+    "title": "Nếu Em Còn Tồn Tại",
+    "artist": "Trịnh Đình Quang",
+    "genre": ["V-Pop", "Pop Ballad"],
+    "moods": ["Buồn", "Thất tình", "Luyến tiếc"],
+    "activity": ["Suy ngẫm", "Ngày mưa", "Tâm trạng"],
+    "url": "https://youtu.be/W-zt83I2gLk"
+  },
+  {
+    "id": 84,
+    "title": "Đừng Làm Trái Tim Anh Đau",
+    "artist": "Sơn Tùng M-TP",
+    "genre": ["V-Pop", "Pop", "Dance-pop"],
+    "moods": ["Vui vẻ", "Yêu đời", "Lãng mạn"],
+    "activity": ["Đám cưới", "Party", "Hẹn hò"],
+    "url": "https://youtu.be/gvGAZad6AmM"
+  },
+  {
+    "id": 85,
+    "title": "Yêu 5",
+    "artist": "Rhymastic",
+    "genre": ["V-Pop", "Rap", "R&B"],
+    "moods": ["Quyến rũ", "Sôi động", "Bắt tai"],
+    "activity": ["Party", "Lái xe", "Hẹn hò"],
+    "url": "https://youtu.be/w35-X-ii0-M"
+  },
+  {
+    "id": 86,
+    "title": "Vô Cùng (Vì Anh Thương Em)",
+    "artist": "Phan Duy Anh",
+    "genre": ["V-Pop", "Pop Ballad"],
+    "moods": ["Buồn", "Thất tình", "Luyến tiếc"],
+    "activity": ["Suy ngẫm", "Tâm trạng", "Ngày mưa"],
+    "url": "https://youtu.be/grgYMGh-2l4"
+  },
+  {
+    "id": 87,
+    "title": "Talk Love",
+    "artist": "K.will",
+    "genre": ["K-Pop", "OST", "Pop"],
+    "moods": ["Vui vẻ", "Yêu đời", "Ngọt ngào"],
+    "activity": ["Hẹn hò", "Xem phim", "Đi dạo"],
+    "url": "https://youtu.be/f-8-IIy4-IM"
+  },
+  {
+    "id": 88,
+    "title": "Đừng Yêu Nữa, Em Mệt Rồi",
+    "artist": "MIN",
+    "genre": ["V-Pop", "Pop Ballad"],
+    "moods": ["Buồn", "Thất tình", "Mạnh mẽ"],
+    "activity": ["Suy ngẫm", "Tâm trạng", "Tự yêu bản thân"],
+    "url": "https://youtu.be/x-Qy_gaIuY8"
+  },
+  {
+    "id": 89,
+    "title": "Beautiful",
+    "artist": "Crush",
+    "genre": ["K-Pop", "OST", "Ballad"],
+    "moods": ["Lãng mạn", "Bình yên", "Xúc động"],
+    "activity": ["Xem phim", "Ngày mưa", "Thư giãn"],
+    "url": "https://youtu.be/W0cs6ciCt_k"
+  },
+  {
+    "id": 90,
+    "title": "Chỉ Là Không Cùng Nhau",
+    "artist": ["TĂNG PHÚC", "TRƯƠNG THẢO NHI"],
+    "genre": ["V-Pop", "Pop Ballad"],
+    "moods": ["Buồn", "Luyến tiếc", "Thất tình"],
+    "activity": ["Suy ngẫm", "Ngày mưa", "Tâm trạng"],
+    "url": "https://youtu.be/PoTTSeB36-I"
+  },
+  {
+    "id": 91,
+    "title": "Ghé Qua",
+    "artist": ["Dick", "PC", "Tofu"],
+    "genre": ["V-Pop", "Rap", "Acoustic"],
+    "moods": ["Buồn", "Hoài niệm", "Bình yên"],
+    "activity": ["Đêm khuya", "Suy ngẫm", "Thư giãn"],
+    "url": "https://youtu.be/Kzw5a4TbuuU"
+  },
+  {
+    "id": 92,
+    "title": "Đế Vương",
+    "artist": "ĐÌNH DŨNG",
+    "genre": ["V-Pop", "Pop Ballad"],
+    "moods": ["Buồn", "Hào hùng", "Luyến tiếc"],
+    "activity": ["Suy ngẫm", "Chơi game", "Tâm trạng"],
+    "url": "https://youtu.be/vlzx-34e-oE"
+  },
+  {
+    "id": 93,
+    "title": "Ghen",
+    "artist": ["KHẮC HƯNG", "MIN", "ERIK"],
+    "genre": ["V-Pop", "Pop", "Dance"],
+    "moods": ["Sôi động", "Bắt tai", "Tinh nghịch"],
+    "activity": ["Party", "Lái xe", "Tập luyện"],
+    "url": "https://youtu.be/sd8gOMi4-bY"
+  },
+  {
+    "id": 94,
+    "title": "Trái Tim Em Cũng Biết Đau",
+    "artist": "Bảo Anh",
+    "genre": ["V-Pop", "Pop Ballad"],
+    "moods": ["Buồn", "Thất tình", "Xúc động"],
+    "activity": ["Suy ngẫm", "Tâm trạng", "Ngày mưa"],
+    "url": "https://youtu.be/sEa-sY28p-s"
+  },
+  {
+    "id": 95,
+    "title": "Sáng Mắt Chưa?",
+    "artist": "TRÚC NHÂN",
+    "genre": ["V-Pop", "Pop", "Dance"],
+    "moods": ["Sôi động", "Vui vẻ", "Tinh nghịch"],
+    "activity": ["Party", "Đám cưới", "Giải tỏa căng thẳng"],
+    "url": "https://youtu.be/cTP-N4jI-44"
+  },
+  {
+    "id": 96,
+    "title": "Thêm Bao Nhiêu Lâu",
+    "artist": "Đạt G",
+    "genre": ["V-Pop", "Pop Ballad"],
+    "moods": ["Buồn", "Thất tình", "Luyến tiếc"],
+    "activity": ["Suy ngẫm", "Tâm trạng", "Ngày mưa"],
+    "url": "https://youtu.be/jJ4X8-PML7E"
+  },
+  {
+    "id": 97,
+    "title": "Bốn Chữ Lắm",
+    "artist": ["TRÚC NHÂN", "TRƯƠNG THẢO NHI"],
+    "genre": ["V-Pop", "Acoustic", "Pop"],
+    "moods": ["Vui vẻ", "Yêu đời", "Nhí nhảnh"],
+    "activity": ["Đi dạo", "Du lịch", "Gặp gỡ bạn bè"],
+    "url": "https://youtu.be/t-NJh6c-e50"
+  },
+  {
+    "id": 98,
+    "title": "Anh Nhà Ở Đâu Thế",
+    "artist": ["AMEE", "B RAY"],
+    "genre": ["V-Pop", "Pop", "Rap"],
+    "moods": ["Vui vẻ", "Ngọt ngào", "Nhí nhảnh"],
+    "activity": ["Hẹn hò", "Đi dạo", "Gặp gỡ bạn bè"],
+    "url": "https://youtu.be/i-b-zt-o7-k"
+  },
+  {
+    "id": 99,
+    "title": "Em Không Sai, Chúng Ta Sai",
+    "artist": "ERIK",
+    "genre": ["V-Pop", "Pop Ballad"],
+    "moods": ["Buồn", "Thất tình", "Luyến tiếc"],
+    "activity": ["Suy ngẫm", "Ngày mưa", "Tâm trạng"],
+    "url": "https://youtu.be/y-GSyvIHPkM"
+  },
+  {
+    "id": 100,
+    "title": "可不可以 (Có Thể Hay Không)",
+    "artist": "張紫豪 (Trương Tử Hào)",
+    "genre": ["Pop Ballad", "Pop"],
+    "moods": ["Buồn", "Luyến tiếc", "Sâu lắng"],
+    "activity": ["Suy ngẫm", "Tâm trạng", "Đêm khuya"],
+    "url": "https://youtu.be/Jd90OrHmA-A"
   }
 ]
