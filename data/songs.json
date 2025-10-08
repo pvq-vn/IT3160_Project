@@ -1,452 +1,452 @@
 [
   {
     "id": 1,
-    "title": "EDM Party",
-    "artist": "Martin Garrix",
-    "genre": "EDM",
-    "moods": ["vui", "năng động"],
-    "activity": ["tập thể dục"],
-    "url": ""
+    "title": "See You Again",
+    "artist": ["Wiz Khalifa", "Charlie Puth"],
+    "genre": ["Pop", "Rap", "Hiphop"],
+    "moods": ["Hoài niệm", "Luyến tiếc", "Xúc động"],
+    "activity": ["Lái xe", "Thư giãn", "Nhớ kỷ niệm"],
+    "url": "https://youtu.be/RgKAFK5djSk"
   },
   {
     "id": 2,
-    "title": "Ballad Buồn",
-    "artist": "Sơn Tùng",
-    "genre": "Ballad",
-    "moods": ["buồn", "suy tư"],
-    "activity": ["nghỉ ngơi"],
-    "url": ""
+    "title": "Shape of You",
+    "artist": "Ed Sheeran",
+    "genre": ["Pop", "Dance-pop", "Tropical house"],
+    "moods": ["Vui vẻ", "Yêu đời", "Năng động"],
+    "activity": ["Party", "Lái xe", "Tập luyện"],
+    "url": "https://youtu.be/JGwWNGJdvx8"
   },
   {
     "id": 3,
-    "title": "Pop Love",
-    "artist": "Taylor Swift",
-    "genre": "Pop",
-    "moods": ["vui", "lãng mạn"],
-    "activity": ["hẹn hò"],
-    "url": ""
+    "title": "Perfect",
+    "artist": "Ed Sheeran",
+    "genre": ["Pop", "Ballad", "Acoustic"],
+    "moods": ["Lãng mạn", "Ngọt ngào", "Ấm áp"],
+    "activity": ["Hẹn hò", "Thư giãn", "Đám cưới"],
+    "url": "https://youtu.be/2Vv-BfVoq4g"
   },
   {
     "id": 4,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Thinking Out Loud",
+    "artist": "Ed Sheeran",
+    "genre": ["Pop", "Soul", "Ballad"],
+    "moods": ["Lãng mạn", "Ngọt ngào", "Sâu lắng"],
+    "activity": ["Hẹn hò", "Khiêu vũ", "Thư giãn"],
+    "url": "https://youtu.be/lp-EO5I60KA"
   },
   {
     "id": 5,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Faded",
+    "artist": "Alan Walker",
+    "genre": ["EDM", "House", "Pop"],
+    "moods": ["Buồn", "Hoài niệm", "Sâu lắng"],
+    "activity": ["Lái xe", "Tập trung", "Thư giãn"],
+    "url": "https://youtu.be/60ItHLz5WEA"
   },
   {
     "id": 6,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Blank Space",
+    "artist": "Taylor Swift",
+    "genre": ["Electropop", "Synth-pop"],
+    "moods": ["Vui vẻ", "Sôi động", "Tinh nghịch"],
+    "activity": ["Party", "Lái xe", "Làm việc"],
+    "url": "https://youtu.be/e-ORhEE9VVg"
   },
   {
     "id": 7,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Baby",
+    "artist": ["Justin Bieber", "Ludacris"],
+    "genre": ["Pop", "R&B", "Dance-pop"],
+    "moods": ["Vui vẻ", "Hoài niệm", "Yêu đời"],
+    "activity": ["Party", "Đi dạo", "Nhớ kỷ niệm"],
+    "url": "https://youtu.be/kffacxfA7G4"
   },
   {
     "id": 8,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "We Don’t Talk Anymore",
+    "artist": ["Charlie Puth", "Selena Gomez"],
+    "genre": ["Pop", "Tropical house"],
+    "moods": ["Buồn", "Luyến tiếc", "Thất tình"],
+    "activity": ["Lái xe", "Thư giãn", "Suy ngẫm"],
+    "url": "https://youtu.be/3AtDnEC4zak"
   },
   {
     "id": 9,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Hello",
+    "artist": "Adele",
+    "genre": ["Pop", "Soul", "Ballad"],
+    "moods": ["Buồn", "Sâu lắng", "Xúc động"],
+    "activity": ["Thư giãn", "Suy ngẫm", "Ngày mưa"],
+    "url": "https://youtu.be/YQHsXMglC9A"
   },
   {
     "id": 10,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Señorita",
+    "artist": ["Shawn Mendes", "Camila Cabello"],
+    "genre": ["Pop", "Latin"],
+    "moods": ["Lãng mạn", "Quyến rũ", "Sôi động"],
+    "activity": ["Hẹn hò", "Khiêu vũ", "Mùa hè"],
+    "url": "https://youtu.be/Pkh8UtuejGw"
   },
   {
     "id": 11,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Love Yourself",
+    "artist": "Justin Bieber",
+    "genre": ["Pop", "Acoustic"],
+    "moods": ["Thất tình", "Mạnh mẽ", "Sâu lắng"],
+    "activity": ["Thư giãn", "Suy ngẫm", "Tự yêu bản thân"],
+    "url": "https://youtu.be/oyEuk8j8imI"
   },
   {
     "id": 12,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Attention",
+    "artist": "Charlie Puth",
+    "genre": ["Pop", "Funk", "R&B"],
+    "moods": ["Sôi động", "Bắt tai", "Tức giận"],
+    "activity": ["Lái xe", "Tập luyện", "Party"],
+    "url": "https://youtu.be/nfs8NYg7yQM"
   },
   {
     "id": 13,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Bad Blood",
+    "artist": ["Taylor Swift", "Kendrick Lamar"],
+    "genre": ["Pop", "Electropop"],
+    "moods": ["Mạnh mẽ", "Sôi động", "Tức giận"],
+    "activity": ["Tập luyện", "Party", "Giải tỏa căng thẳng"],
+    "url": "https://youtu.be/QcIy9NiNbmo"
   },
   {
     "id": 14,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Photograph",
+    "artist": "Ed Sheeran",
+    "genre": ["Pop", "Folk-pop", "Ballad"],
+    "moods": ["Hoài niệm", "Lãng mạn", "Ngọt ngào"],
+    "activity": ["Nhớ kỷ niệm", "Thư giãn", "Hẹn hò"],
+    "url": "https://youtu.be/nSDgHBxUbVQ"
   },
   {
     "id": 15,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "The Spectre",
+    "artist": "Alan Walker",
+    "genre": ["EDM", "Electro house"],
+    "moods": ["Sôi động", "Năng động", "Hào hứng"],
+    "activity": ["Chơi game", "Tập luyện", "Party"],
+    "url": "https://youtu.be/wJnBvs3pcCU"
   },
   {
     "id": 16,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Sweet but Psycho",
+    "artist": "Ava Max",
+    "genre": ["Pop", "Dance-pop"],
+    "moods": ["Sôi động", "Bắt tai", "Tinh nghịch"],
+    "activity": ["Party", "Lái xe", "Tập luyện"],
+    "url": "https://youtu.be/WXBHCQYxwr0"
   },
   {
     "id": 17,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Somewhere Only We Know",
+    "artist": "Keane",
+    "genre": ["Alternative rock", "Piano rock"],
+    "moods": ["Hoài niệm", "Bình yên", "Sâu lắng"],
+    "activity": ["Thư giãn", "Suy ngẫm", "Ngày mưa"],
+    "url": "https://youtu.be/Oextk-If8HQ"
   },
   {
     "id": 18,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Always Remember Us This Way",
+    "artist": "Lady Gaga",
+    "genre": ["Pop", "Ballad", "Country"],
+    "moods": ["Xúc động", "Sâu lắng", "Lãng mạn"],
+    "activity": ["Thư giãn", "Suy ngẫm", "Hẹn hò"],
+    "url": "https://youtu.be/5vheNbQlsyU"
   },
   {
     "id": 19,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Bống Bống Bang Bang",
+    "artist": ["Jun Phạm", "Will", "Issac", "ST Sơn Thạch"],
+    "genre": ["V-Pop", "Dance"],
+    "moods": ["Vui vẻ", "Nhí nhảnh", "Sôi động"],
+    "activity": ["Party", "Trẻ em", "Nhảy múa"],
+    "url": "https://youtu.be/31f7h_y_o_A"
   },
   {
     "id": 20,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "FLOWER (꽃)",
+    "artist": "JISOO",
+    "genre": ["K-Pop", "Dance", "Pop"],
+    "moods": ["Quyến rũ", "Bắt tai", "Thời thượng"],
+    "activity": ["Nhảy múa", "Thời trang", "Lái xe"],
+    "url": "https://youtu.be/YudHcBIxlYw"
   },
   {
     "id": 21,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Stay With Me",
+    "artist": ["CHANYEOL", "PUNCH"],
+    "genre": ["K-Pop", "OST", "Ballad"],
+    "moods": ["Buồn", "Lãng mạn", "Xúc động"],
+    "activity": ["Xem phim", "Ngày mưa", "Suy ngẫm"],
+    "url": "https://youtu.be/pcKR0LPwoYs"
   },
   {
     "id": 22,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Sóng Gió",
+    "artist": ["K-ICM", "JACK"],
+    "genre": ["V-Pop", "Pop Ballad"],
+    "moods": ["Buồn", "Thất tình", "Sâu lắng"],
+    "activity": ["Suy ngẫm", "Ngày mưa", "Thư giãn"],
+    "url": "https://youtu.be/l-33SkD_tnw"
   },
   {
     "id": 23,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Speechless",
+    "artist": "Naomi Scott",
+    "genre": ["Pop", "OST", "Ballad"],
+    "moods": ["Mạnh mẽ", "Truyền cảm hứng", "Xúc động"],
+    "activity": ["Tự yêu bản thân", "Tập trung", "Giải tỏa căng thẳng"],
+    "url": "https://youtu.be/mw5VIEI1aCo"
   },
   {
     "id": 24,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Happier",
+    "artist": "Ed Sheeran",
+    "genre": ["Pop", "Ballad"],
+    "moods": ["Buồn", "Thất tình", "Luyến tiếc"],
+    "activity": ["Suy ngẫm", "Ngày mưa", "Thư giãn"],
+    "url": "https://youtu.be/iWZmdoY1aTE"
   },
   {
     "id": 25,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Bạc Phận",
+    "artist": ["K-ICM", "JACK"],
+    "genre": ["V-Pop", "EDM"],
+    "moods": ["Thất tình", "Sôi động", "Buồn"],
+    "activity": ["Lái xe", "Party", "Suy ngẫm"],
+    "url": "https://youtu.be/WX7dU6eN61c"
   },
   {
     "id": 26,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Nơi Này Có Anh",
+    "artist": "Sơn Tùng M-TP",
+    "genre": ["V-Pop", "Pop"],
+    "moods": ["Lãng mạn", "Ngọt ngào", "Yêu đời"],
+    "activity": ["Hẹn hò", "Đi dạo", "Mùa đông"],
+    "url": "https://youtu.be/FN7r0Rr1Qyc"
   },
   {
     "id": 27,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Em Gì Ơi",
+    "artist": ["K-ICM", "JACK"],
+    "genre": ["V-Pop", "Pop"],
+    "moods": ["Vui vẻ", "Yêu đời", "Bắt tai"],
+    "activity": ["Đi dạo", "Mùa hè", "Du lịch"],
+    "url": "https://youtu.be/G-iPShs4p98"
   },
   {
     "id": 28,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "2 Phút Hơn (KAIZ Remix)",
+    "artist": "Pháo",
+    "genre": ["V-Pop", "EDM", "Vinahouse"],
+    "moods": ["Sôi động", "Năng động", "Bắt tai"],
+    "activity": ["Chơi game", "Party", "Tập luyện"],
+    "url": "https://youtu.be/b7zE0-KHsgo"
   },
   {
     "id": 29,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Say Yes",
+    "artist": ["Loco", "Punch"],
+    "genre": ["K-Pop", "OST", "Rap"],
+    "moods": ["Lãng mạn", "Ngọt ngào", "Yêu đời"],
+    "activity": ["Hẹn hò", "Xem phim", "Đi dạo"],
+    "url": "https://youtu.be/6yIDkbbdOoE"
   },
   {
     "id": 30,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Hồng Nhan",
+    "artist": "JACK",
+    "genre": ["V-Pop", "Pop Ballad"],
+    "moods": ["Buồn", "Thất tình", "Luyến tiếc"],
+    "activity": ["Suy ngẫm", "Ngày mưa", "Thư giãn"],
+    "url": "https://youtu.be/k-jq-y9h_zQ"
   },
   {
     "id": 31,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Hãy Trao Cho Anh",
+    "artist": ["Sơn Tùng M-TP", "Snoop Dogg"],
+    "genre": ["V-Pop", "Latin", "Reggaeton"],
+    "moods": ["Sôi động", "Quyến rũ", "Mùa hè"],
+    "activity": ["Party", "Khiêu vũ", "Lái xe"],
+    "url": "https://youtu.be/knW7-x7Y7RE"
   },
   {
     "id": 32,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Everytime",
+    "artist": ["CHEN", "Punch"],
+    "genre": ["K-Pop", "OST", "Pop"],
+    "moods": ["Lãng mạn", "Yêu đời", "Ngọt ngào"],
+    "activity": ["Hẹn hò", "Xem phim", "Đi dạo"],
+    "url": "https://youtu.be/fTc5tuEn6_U"
   },
   {
     "id": 33,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Thằng Điên",
+    "artist": ["JustaTee", "Phương Ly"],
+    "genre": ["V-Pop", "Pop", "R&B"],
+    "moods": ["Lãng mạn", "Ngọt ngào", "Yêu đời"],
+    "activity": ["Hẹn hò", "Đi dạo", "Thư giãn"],
+    "url": "https://youtu.be/HXkh7EOYTK4"
   },
   {
     "id": 34,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Lạc Trôi",
+    "artist": "Sơn Tùng M-TP",
+    "genre": ["V-Pop", "EDM", "Future bass"],
+    "moods": ["Sôi động", "Bí ẩn", "Mạnh mẽ"],
+    "activity": ["Lái xe", "Tập trung", "Chơi game"],
+    "url": "https://youtu.be/Llw9Q6akRo4"
   },
   {
     "id": 35,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "golden hour",
+    "artist": "JVKE",
+    "genre": ["Pop", "Ballad"],
+    "moods": ["Lãng mạn", "Bình yên", "Mơ mộng"],
+    "activity": ["Hoàng hôn", "Thư giãn", "Hẹn hò"],
+    "url": "https://youtu.be/PEM0Vs8jf1w"
   },
   {
     "id": 36,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "This Love",
+    "artist": "DAVICHI",
+    "genre": ["K-Pop", "OST", "Ballad"],
+    "moods": ["Buồn", "Luyến tiếc", "Xúc động"],
+    "activity": ["Ngày mưa", "Xem phim", "Suy ngẫm"],
+    "url": "https://youtu.be/XyzaMpAVm3s"
   },
   {
     "id": 37,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Bắc Bling (Bắc Ninh)",
+    "artist": ["Hòa Minzy", "NSƯT Xuân Hinh", "Masew", "Tuấn Cry"],
+    "genre": ["V-Pop", "Hip-hop", "Quan họ"],
+    "moods": ["Sôi động", "Tự hào", "Vui vẻ"],
+    "activity": ["Du lịch", "Lễ hội", "Lái xe"],
+    "url": "https://youtu.be/kU9oVFAYiS0"
   },
   {
     "id": 38,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Phía Sau Một Cô Gái",
+    "artist": "Soobin Hoàng Sơn",
+    "genre": ["V-Pop", "Pop Ballad"],
+    "moods": ["Buồn", "Thất tình", "Đồng cảm"],
+    "activity": ["Suy ngẫm", "Ngày mưa", "Thư giãn"],
+    "url": "https://youtu.be/j-pB-gA-P3M"
   },
   {
     "id": 39,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Chuyện Cũ Bỏ Qua",
+    "artist": "BÍCH PHƯƠNG",
+    "genre": ["V-Pop", "Pop", "Dance"],
+    "moods": ["Vui vẻ", "Yêu đời", "Tích cực"],
+    "activity": ["Năm mới", "Dọn dẹp", "Party"],
+    "url": "https://youtu.be/tlu4GplnO5U"
   },
   {
     "id": 40,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Ngắm Hoa Lệ Rơi",
+    "artist": "Châu Khải Phong",
+    "genre": ["V-Pop", "Pop Ballad"],
+    "moods": ["Buồn", "Thất tình", "Luyến tiếc"],
+    "activity": ["Suy ngẫm", "Ngày mưa", "Tâm trạng"],
+    "url": "https://youtu.be/KGIU-w44d-w"
   },
   {
     "id": 41,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Anh Thanh Niên",
+    "artist": "HuyR",
+    "genre": ["V-Pop", "Pop"],
+    "moods": ["Vui vẻ", "Yêu đời", "Tích cực"],
+    "activity": ["Du lịch", "Đi dạo", "Gặp gỡ bạn bè"],
+    "url": "https://youtu.be/JLZC2R-E2d4"
   },
   {
     "id": 42,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Chúng Ta Không Thuộc Về Nhau",
+    "artist": "Sơn Tùng M-TP",
+    "genre": ["V-Pop", "EDM", "Tropical house"],
+    "moods": ["Sôi động", "Bắt tai", "Thời thượng"],
+    "activity": ["Party", "Lái xe", "Tập luyện"],
+    "url": "https://youtu.be/VTzT6wMSy2k"
   },
   {
     "id": 43,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Người Lạ Ơi",
+    "artist": ["Châu Đăng Khoa", "Karik", "Orange"],
+    "genre": ["V-Pop", "R&B", "Rap"],
+    "moods": ["Cô đơn", "Sâu lắng", "Đồng cảm"],
+    "activity": ["Suy ngẫm", "Ngày mưa", "Một mình"],
+    "url": "https://youtu.be/163_C5UVU-I"
   },
   {
     "id": 44,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Muộn Rồi Mà Sao Còn",
+    "artist": "Sơn Tùng M-TP",
+    "genre": ["V-Pop", "Pop", "R&B"],
+    "moods": ["Lãng mạn", "Ngọt ngào", "Yêu đời"],
+    "activity": ["Hẹn hò", "Thư giãn", "Đêm khuya"],
+    "url": "https://youtu.be/x-Qy_gaIuY8"
   },
   {
     "id": 45,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Hoa Hải Đường",
+    "artist": "Jack",
+    "genre": ["V-Pop", "EDM", "World music"],
+    "moods": ["Sôi động", "Mạnh mẽ", "Hào hùng"],
+    "activity": ["Chơi game", "Tập luyện", "Lái xe"],
+    "url": "https://youtu.be/Bhg-0I8-3-c"
   },
   {
     "id": 46,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Hoa Nở Không Màu",
+    "artist": "Hoài Lâm",
+    "genre": ["V-Pop", "Acoustic", "Ballad"],
+    "moods": ["Buồn", "Thất tình", "Sâu lắng"],
+    "activity": ["Suy ngẫm", "Ngày mưa", "Tâm trạng"],
+    "url": "https://youtu.be/y_6aSG2yfe8"
   },
   {
     "id": 47,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Túy Âm",
+    "artist": ["Xesi", "Masew", "Nhatnguyen"],
+    "genre": ["V-Pop", "EDM", "Future bass"],
+    "moods": ["Ma mị", "Sôi động", "Gây nghiện"],
+    "activity": ["Chơi game", "Party", "Lái xe"],
+    "url": "https://youtu.be/EV-91l_a-Ig"
   },
   {
     "id": 48,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Tháng Tư Là Lời Nói Dối Của Em",
+    "artist": "Hà Anh Tuấn",
+    "genre": ["V-Pop", "Pop Ballad"],
+    "moods": ["Buồn", "Luyến tiếc", "Hoài niệm"],
+    "activity": ["Ngày mưa", "Đọc sách", "Suy ngẫm"],
+    "url": "https://youtu.be/2i2kh_J-n6c"
   },
   {
     "id": 49,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "Từng Yêu",
+    "artist": "Phan Duy Anh",
+    "genre": ["V-Pop", "Pop Ballad"],
+    "moods": ["Buồn", "Thất tình", "Luyến tiếc"],
+    "activity": ["Suy ngẫm", "Ngày mưa", "Tâm trạng"],
+    "url": "https://youtu.be/C-Qhjcm-aHM"
   },
   {
     "id": 50,
-    "title": "Classical Calm",
-    "artist": "Beethoven",
-    "genre": "Classical",
-    "moods": ["thư giãn", "tập trung"],
-    "activity": ["học tập"],
-    "url": ""
+    "title": "My Heart Will Go On",
+    "artist": "Celine Dion",
+    "genre": ["Pop", "Ballad", "OST"],
+    "moods": ["Lãng mạn", "Xúc động", "Bất hủ"],
+    "activity": ["Xem phim", "Thư giãn", "Hoài niệm"],
+    "url": "https://youtu.be/FHG2oizTlpY"
   }
 ]
