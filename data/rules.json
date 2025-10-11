@@ -1,17 +1,158 @@
 [
   {
-    "mood": "vui",
-    "genres": ["Pop", "Dance"],
-    "id": [1, 3]
+    "condition": {"tam_trang": "Ấm áp"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
   },
   {
-    "mood": "buồn",
-    "genres": ["Ballad", "Acoustic"],
-    "id": [2]
+    "condition": {"tam_trang": "Bắt tai"},
+    "effect": {"type": "the_loai", "target": "EDM", "score": 15}
   },
   {
-    "mood": "năng động",
-    "genres": ["Rock", "EDM"],
-    "id": [6]
+    "condition": {"tam_trang": "buon"},
+    "effect": {"type": "the_loai", "target": "Ballad", "score": 30}
+  },
+  {
+    "condition": {"tam_trang": "buon"},
+    "effect": {"type": "the_loai", "target": "EDM", "score": -20}
+  },
+  {
+    "condition": {"tam_trang": "suy tư"},
+    "effect": {"type": "the_loai", "target": "Lofi", "score": 25}
+  },
+  {
+    "condition": {"tam_trang": "suy tư"},
+    "effect": {"type": "the_loai", "target": "Cổ điển", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"tam_trang": "vui"},
+    "effect": {"type": "the_loai", "target": "Pop", "score": 20}
+  },
+  {
+    "condition": {"hoat_dong": "tap_the_duc"},
+    "effect": {"type": "the_loai", "target": "EDM", "score": 30}
+  },
+  {
+    "condition": {"hoat_dong": "tap_the_duc"},
+    "effect": {"type": "the_loai", "target": "Rap", "score": 25}
+  },
+  {
+    "condition": {"hoat_dong": "hoc_tap"},
+    "effect": {"type": "the_loai", "target": "Cổ điển", "score": 25}
+  },
+  {
+    "condition": {"hoat_dong": "hoc_tap"},
+    "effect": {"type": "the_loai", "target": "Lofi", "score": 20}
+  },
+  {
+    "condition": {"the_loai_yeu_thich": "Rap"},
+    "effect": {"type": "the_loai", "target": "Rap", "score": 50}
+  },
+  {
+    "condition": {"the_loai_yeu_thich": "Ballad"},
+    "effect": {"type": "nghe_si", "target": "Hòa Minzy", "score": 15}
   }
 ]

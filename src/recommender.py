@@ -1,7 +1,7 @@
 # recommender.py
 import json
 import random
-from .mood_rules import get_genres_by_mood
+from .inference_engine import get_genres_by_mood
 
 def load_songs(path="data/songs.json"):
     with open(path, "r", encoding="utf-8") as f:
