@@ -1,19 +1,19 @@
-# recommender.py
-import json
-import random
-from .inference_engine import get_genres_by_mood
+# src/recommender.py
+from src.inference_engine import load_data, get_recommendations
 
-def load_songs(path="data/songs.json"):
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+class Recommender:
+    def __init__(self):
+        """Khởi tạo và tải dữ liệu."""
+        self.songs_db, self.rules_db = load_data()
+        if self.songs_db is None or self.rules_db is None:
+            raise RuntimeError("Không thể tải dữ liệu cho hệ thống gợi ý.")
 
-def recommend_songs(mood, num_songs=5):
-    songs = load_songs()
-    genres = get_genres_by_mood(mood)
-
-    if not genres:
-        return []
-
-    candidates = [s for s in songs if s.get("genre", "").lower() in genres]
-    random.shuffle(candidates)
-    return candidates[:num_songs]
+    def suggest(self, user_input, top_n=5):
+        """
+        Nhận đầu vào và trả về danh sách gợi ý.
+        Đây là hàm duy nhất mà giao diện người dùng (app.py) cần biết đến.
+        """
+        if not user_input:
+            return []
+        
+        return get_recommendations(user_input, self.songs_db, self.rules_db, top_n)
