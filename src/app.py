@@ -1,39 +1,41 @@
 import streamlit as st
-import json
-from pathlib import Path
+from inference_engine import load_data, get_recommendations
 
-# --- Đọc dữ liệu ---
-BASE_DIR = Path(__file__).resolve().parents[1]  # cha của src/
-DATA = BASE_DIR / "data" / "songs.json"
-RULES = BASE_DIR / "data" / "rules.json"
+# Tải dữ liệu một lần duy nhất khi ứng dụng khởi động
+songs_db, rules_db = load_data()
 
-def load_json(p):
-    with open(p, 'r', encoding='utf-8') as f:
-        return json.load(f)
+st.title("MUSEEK 🎵")
 
-songs = load_json(DATA)
-rules = load_json(RULES)
+# Tạo các lựa chọn cho người dùng
+# (Bạn cần tự tạo danh sách các lựa chọn từ dữ liệu)
+mood_options = ["Buồn", "Cô đơn", "Hoài niệm", "Lãng mạn", "Mơ mộng", "Mạnh mẽ", "Sôi động", "Thư giãn", "Vui vẻ", "Xúc động"]
+activity_options = ["Hẹn hò", "Lái xe", "Lễ hội", "Nhớ kỷ niệm", "Party", "Suy ngẫm", "Tập trung", "Trẻ em"]
+genre_options = ["Acoustic", "Ballad", "Country", "Dance", "EDM", "Hiphop", "K-Pop", "Latin", "OST", "Pop", "Quan họ", "R&B", "Rock", "V-Pop", "World music"]
 
-def recommend(mood):
-    rec_ids = set()
-    for rule in rules:
-        if rule.get("mood") == mood:
-            rec_ids.update(rule.get("id", []))
-    return [s for s in songs if s["id"] in rec_ids]
+# Lấy input từ người dùng
+selected_mood = st.selectbox("Tâm trạng của bạn hôm nay là gì?", options=[""] + mood_options)
+selected_activity = st.selectbox("Bạn đang làm gì?", options=[""] + activity_options)
+selected_genre = st.selectbox("Thể loại bạn yêu thích?", options=[""] + genre_options)
 
-# --- Giao diện Streamlit ---
-st.title("🎶 Hệ gợi ý nhạc đơn giản (Rule-based)")
+# Nút để bắt đầu gợi ý
+if st.button("Tìm nhạc cho tôi!"):
+    user_input = {}
+    if selected_mood:
+        user_input["tam_trang"] = selected_mood
+    if selected_activity:
+        user_input["hoat_dong"] = selected_activity
+    if selected_genre:
+        user_input["the_loai_yeu_thich"] = selected_genre
 
-mood = st.selectbox(
-    "Chọn tâm trạng của bạn:",
-    ["vui", "buồn", "năng động"]
-)
-
-if st.button("Gợi ý nhạc"):
-    recs = recommend(mood)
-    if not recs:
-        st.warning("Không tìm thấy bài hát phù hợp.")
+    if not user_input:
+        st.warning("Vui lòng chọn ít nhất một tiêu chí.")
     else:
-        st.success(f"Gợi ý bài hát cho tâm trạng '{mood}':")
-        for s in recs:
-            st.write(f"🎵 **{s['title']}** – {s['artist']} ({s['genre']})")
+        # Gọi "bộ não" suy diễn
+        recommendations = get_recommendations(user_input, songs_db, rules_db)
+
+        if recommendations:
+            st.success("Đây là những bài hát dành cho bạn:")
+            for song_title, score in recommendations:
+                st.write(f"**- {song_title}** (Điểm phù hợp: {score})")
+        else:
+            st.info("Rất tiếc, không tìm thấy bài hát nào phù hợp với lựa chọn của bạn.")
