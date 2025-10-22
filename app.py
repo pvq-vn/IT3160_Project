@@ -1,12 +1,13 @@
-# src/app.py
+# app.py
+
 import streamlit as st
-from src.recommender import Recommender
+from src.recommender import Recommender # Lệnh import này giờ đã đúng
 
 st.set_page_config(page_title="Music Recommender", layout="centered")
 
 @st.cache_resource
 def load_recommender():
-    """Tải mô hình recommender và cache lại để không phải load lại mỗi lần."""
+    """Tải và cache hệ thống gợi ý."""
     try:
         return Recommender()
     except RuntimeError as e:
@@ -15,7 +16,7 @@ def load_recommender():
 
 recommender_system = load_recommender()
 
-st.title("Hệ thống Gợi ý Âm nhạc 🎵")
+st.title("Project IT3160 - MUSEEK 🎵")
 st.write("Dựa trên Biểu diễn tri thức và Suy diễn logic")
 
 if recommender_system:

@@ -1,8 +1,0 @@
-Genre (Thể loại): "Acoustic", "Ballad", "Country", "Dance", "EDM", "Hiphop", "K-Pop", 
-"Latin", "OST", "Pop", "Quan họ", "R&B", "Rock", "V-Pop", "World music"
-
-Moods (Tâm trạng): "Buồn", "Cô đơn", "Hoài niệm", "Lãng mạn", "Mơ mộng", "Mạnh mẽ", 
-"Sôi động", "Thư giãn", "Vui vẻ", "Xúc động"
-
-Activity (Hoạt động): "Hẹn hò", "Lái xe", "Lễ hội", "Nhớ kỷ niệm", "Party", "Suy ngẫm"
-"Tập trung", "Trẻ em"
