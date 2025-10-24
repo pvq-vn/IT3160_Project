@@ -1,17 +1,11 @@
-# src/inference_engine.py
-
 import json
 import os
 
-# --- PHẦN SỬA ĐỔI QUAN TRỌNG ---
-# Tự động xác định đường dẫn thư mục gốc của project
-# Bằng cách này, code sẽ luôn tìm thấy thư mục 'data' một cách chính xác
 PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 SONGS_PATH = os.path.join(PROJECT_ROOT, 'data', 'songs.json')
 RULES_PATH = os.path.join(PROJECT_ROOT, 'data', 'rules.json')
 
 def load_data():
-    """Tải dữ liệu bài hát và luật từ các file JSON bằng đường dẫn tuyệt đối."""
     try:
         with open(SONGS_PATH, 'r', encoding='utf-8') as f:
             songs = json.load(f)
@@ -19,14 +13,11 @@ def load_data():
             rules = json.load(f)
         return songs, rules
     except FileNotFoundError as e:
-        print(f"Lỗi: Không tìm thấy file tại đường dẫn: {e.filename}")
         return None, None
     except json.JSONDecodeError as e:
-        print(f"Lỗi: File JSON không hợp lệ. Vui lòng kiểm tra lại cú pháp. Chi tiết: {e}")
         return None, None
 
 def get_recommendations(user_input, songs, rules, top_n=5):
-    """Hàm suy diễn chính để đưa ra gợi ý bài hát."""
     if not songs or not rules:
         return []
 
