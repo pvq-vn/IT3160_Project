@@ -17,13 +17,12 @@ def load_data():
     except json.JSONDecodeError as e:
         return None, None
 
-def get_recommendations(user_input, songs, rules, top_n=5):
+def get_recommendations(user_input, songs, rules, top_n):
     if not songs or not rules:
         return []
 
     song_scores = {song['title']: 0 for song in songs}
 
-    # === Giai đoạn 1: Suy diễn Bottom-up (Đối sánh trực tiếp) ===
     user_mood = user_input.get('tam_trang')
     user_activity = user_input.get('hoat_dong')
     user_genre = user_input.get('the_loai_yeu_thich')
@@ -36,7 +35,6 @@ def get_recommendations(user_input, songs, rules, top_n=5):
         if user_genre and user_genre in song.get('genre', []):
             song_scores[song['title']] += 35
 
-    # === Giai đoạn 2: Suy diễn Top-down (Dựa trên luật) ===
     for rule in rules:
         condition_key, condition_value = list(rule['condition'].items())[0]
         
@@ -60,7 +58,6 @@ def get_recommendations(user_input, songs, rules, top_n=5):
                         if effect_target == artist_field:
                             song_scores[song['title']] += effect_score
 
-    # Sắp xếp và trả về kết quả
     sorted_songs = sorted(song_scores.items(), key=lambda item: item[1], reverse=True)
     final_recommendations = [(song, score) for song, score in sorted_songs if score > 0]
     return final_recommendations[:top_n]

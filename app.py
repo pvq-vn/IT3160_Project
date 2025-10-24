@@ -1,13 +1,10 @@
-# app.py
-
 import streamlit as st
-from src.recommender import Recommender # Lệnh import này giờ đã đúng
+from src.recommender import Recommender
 
 st.set_page_config(page_title="Music Recommender", layout="centered")
 
 @st.cache_resource
 def load_recommender():
-    """Tải và cache hệ thống gợi ý."""
     try:
         return Recommender()
     except RuntimeError as e:
@@ -17,20 +14,18 @@ def load_recommender():
 recommender_system = load_recommender()
 
 st.title("Project IT3160 - MUSEEK 🎵")
-st.write("Dựa trên Biểu diễn tri thức và Suy diễn logic")
+st.write("Chill đúng vibe - Nghe nhạc đúng sì taiii")
 
 if recommender_system:
-    # Lấy các tùy chọn từ DB để điền vào selectbox
     mood_options = sorted(list(set(mood for song in recommender_system.songs_db for mood in song.get('moods', []))))
     activity_options = sorted(list(set(act for song in recommender_system.songs_db for act in song.get('activity', []))))
     genre_options = sorted(list(set(g for song in recommender_system.songs_db for g in song.get('genre', []))))
 
-    # Giao diện
-    selected_mood = st.selectbox("Tâm trạng của bạn là gì?", options=[""] + mood_options)
-    selected_activity = st.selectbox("Bạn đang làm gì?", options=[""] + activity_options)
-    selected_genre = st.selectbox("Bạn có yêu thích thể loại cụ thể nào không?", options=[""] + genre_options)
+    selected_mood = st.selectbox("Bạn đang cảm thấy thế nào?", options=[""] + mood_options)
+    selected_activity = st.selectbox("Giờ bạn đang làm gì đó?", options=[""] + activity_options)
+    selected_genre = st.selectbox("Hãy nói cho tôi gu nhạc của bạn.", options=[""] + genre_options)
 
-    if st.button("Tìm nhạc cho tôi!", use_container_width=True):
+    if st.button("Tìm nhạc ngay", use_container_width=True):
         user_input = {}
         if selected_mood:
             user_input["tam_trang"] = selected_mood
@@ -46,8 +41,8 @@ if recommender_system:
                 recommendations = recommender_system.suggest(user_input)
 
                 if recommendations:
-                    st.success("Đây là những bài hát dành cho bạn:")
+                    st.success("Nghe thử những giai điệu này xem đã đúng vibe chưa nhé:")
                     for i, (song_title, score) in enumerate(recommendations):
                         st.write(f"{i+1}. **{song_title}** (Điểm phù hợp: {score})")
                 else:
-                    st.info("Rất tiếc, không tìm thấy bài hát nào phù hợp với lựa chọn của bạn.")
+                    st.info("Sì tai nhạc của bạn hơi lạ nên mình botay.com")
